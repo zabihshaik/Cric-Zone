@@ -1,0 +1,100 @@
+/**** External Imports *****/
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@import url('https://neoz-ui.netlify.app/styles/main.css');
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    /* 1 rem = 16px */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+}
+
+/***** Defining Color Variables *****/
+:root {
+    --primary-color: #335BB1;
+    --secondary-color: #17375b;
+    --tertiary-color: #f7f7f7;
+    --text-black: #2b2b2b;
+    --text-white: #ffffff;
+    --bg-body: #DEDEDE;
+    --bg-success: #46a846;
+    --bg-busy: #7f007f;
+    --bg-danger: #ff3b30;
+    --bg-warning: #edc255;
+    --color-gray: #808080;
+}
+
+.page-wrap {
+    display: flex;
+    flex-direction: column;
+    /* expand to take full height of page */
+    /* min-height overrides both height & max-height */
+    min-height: 100vh;
+}
+
+.main {
+    /* to fix the footer at the bottom */
+    flex-grow: 1;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.search-box-ecom {
+    display: inline-flex;
+    margin: auto 0;
+    height: 2rem;
+}
+
+.image-section {
+    width: 100%;
+    height: 75%;
+    position: absolute;
+    background-position: center;
+    top: 0;
+    z-index: -1;
+    filter: brightness(75%);
+    margin-top: 3.5rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+/******* Categories section styling *******/
+
+.section-padding {
+    margin: 6rem 0;
+    padding: 5rem 0;
+}
+
+.featured-product {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
