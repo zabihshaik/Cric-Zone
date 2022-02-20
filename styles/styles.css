@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 @import url('https://neoz-ui.netlify.app/styles/main.css');
+@import url("../styles/login.css");
 
 /* Reset CSS */
 *,
