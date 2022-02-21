@@ -16,9 +16,6 @@ The Home Page is the landing page with a list of featured categories redirected 
 Link of the Landing Page:
 https://cric-zone.netlify.app/
 
-Landing Page looks like:
-
-
 
 Product Listing Page:
 
@@ -32,8 +29,6 @@ There are different types of filters on the product listing page including:
 Link for Product Listing Page:
 https://cric-zone.netlify.app/pages/product.html
 
-Product Listing Page looks like:
-
 
 
 Cart Management:
@@ -41,8 +36,6 @@ The Cart Page is where all the products that the user has added to the cart and 
 
 Link for Cart Management Page:
 https://cric-zone.netlify.app/pages/cart.html
-
-Cart Management Page looks like:
 
 
 
@@ -53,7 +46,6 @@ The Wishlist Page is where all the products that the user has selected or liked 
 Link for Wishlist Management Page:
 https://cric-zone.netlify.app/pages/wishlist.html
 
-Wishlist Management Page looks like:
 
 
 Authentication:
