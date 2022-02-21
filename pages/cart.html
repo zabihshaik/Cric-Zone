@@ -27,7 +27,7 @@
         <!-- Header Starts -->
 
         <header>
-            <nav class="navbar">
+            <nav class="navbar flex-wrap p-0-5">
                 <div>
                     <a href="../index.html" class="nav nav-logo">
                         <h3>Cric Zone</h3>
@@ -38,11 +38,11 @@
                     <i class="fa fa-search"></i>
                 </div>
                 <div>
-                    <ul class="nav-links">
+                    <ul class="nav-links flex-center flex-wrap">
                         <li><a href="../index.html" class="nav nav-pills">Home</a></li>
                         <li><a href="./login.html" class="nav nav-pills">Login</a></li>
                         <li>
-                            <div class="flex-center">
+                            <div class="flex-center flex-wrap">
                                 <a href="./wishlist.html" class="nav nav-pills">
                                     <div class="icon"><i class="fa fa-heart"></i></div>
                                 </a>
@@ -53,7 +53,8 @@
                                 <span class="badge badge-icon">2</span>
                             </div>
                         </li>
-                        <li><a href="./logout.html" class="nav nav-pills"><button class="btn btn-secondary">Logout</button></a></li>
+                        <li><a href="./logout.html" class="nav nav-pills"><button
+                                    class="btn btn-secondary btn-logout">Logout</button></a></li>
 
                         <li>
                             <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
@@ -70,73 +71,71 @@
 
         <main class="main">
 
-            
-                <h3 class="heading text-center mt-2 mb-2">My Cart(2)</h3>
 
-                <div class="cart-center flex-center pb-2">
-                    <section class="card-section">
-                        <div class="card-wrapper pb-2">
-                            <div class="image">
-                                <img class="cart-image"
-                                    src="../assets/card-image2.jpg"
-                                    alt="error">
+            <h3 class="heading text-center mt-2 mb-2">My Cart(2)</h3>
+
+            <div class="cart-center flex-center pb-2">
+                <section class="card-section">
+                    <div class="card-wrapper pb-2">
+                        <div class="image">
+                            <img class="cart-image" src="../assets/card-image2.jpg" alt="error">
+                        </div>
+                        <div class="side-container">
+                            <div class="heading-cart">
+                                <h3>Team India Retro T-shirt</h3>
                             </div>
-                            <div class="side-container">
-                                <div class="heading-cart">
-                                    <h3>Team India Retro T-shirt</h3>
+                            <div class="payment">
+                                <p class="price"><i class="fa fa-rupee rupee-icon"></i>3,000</p>
+                                <del class="original-price"><i class="fa fa-rupee rupee-icon"></i>6000</del>
+                            </div>
+                            <div class="price">
+                                <p>50% off</p>
+                            </div>
+                            <div class="button-content">
+                                <div class="quantity">
+                                    <p>Quantity: </p>
                                 </div>
-                                <div class="payment">
-                                    <p class="price"><i class="fa fa-rupee rupee-icon"></i>3,000</p>
-                                    <del class="original-price"><i class="fa fa-rupee rupee-icon"></i>6000</del>
+                                <div class="button-div">
+                                    <button class="cart-button increase">+</button>
+                                    <input type="number" class="cart-input">
+                                    <button class="cart-button decrease">-</button>
                                 </div>
-                                <div class="price">
-                                    <p>50% off</p>
-                                </div>
-                                <div class="button-content">
-                                    <div class="quantity">
-                                        <p>Quantity: </p>
-                                    </div>
-                                    <div class="button-div">
-                                        <button class="cart-button increase">+</button>
-                                        <input type="number" class="cart-input">
-                                        <button class="cart-button decrease">-</button>
-                                    </div>
-                                </div>
-                                <div class="action-container">
-                                    <a class="action secondary-action font-weight" href="#">Remove From Cart</a>
-                                    <a class="action primary-action font-weight" href="#">Move to Wishlist</a>
-                                </div>
+                            </div>
+                            <div class="action-container">
+                                <a class="action secondary-action font-weight" href="#">Remove From Cart</a>
+                                <a class="action primary-action font-weight" href="#">Move to Wishlist</a>
                             </div>
                         </div>
-                    </section>
-                    <section class="details">
-                        <div class="price-details">
-                            <div class="filter-text price-text">PRICE DETAILS</div>
-                            <div class="font-weight flex-center justify-space-between price-div">
-                                <p>Price (2 items)</p>
-                                <p><i class="fa fa-rupee rupee-icon"></i>6000</p>
-                            </div>
-                            <div class="font-weight flex-center justify-space-between discount-div">
-                                <p>Discount</p>
-                                <p>- <i class="fa fa-rupee rupee-icon"></i>3000</p>
-                            </div>
-                            <div class="font-weight flex-center justify-space-between delivery-div">
-                                <p>Delivery Charges</p>
-                                <p><i class="fa fa-rupee rupee-icon"></i>0</p>
-                            </div>
-                            <div class="flex-center justify-space-between amount-div">
-                                <div class="filter-text">TOTAL AMOUNT</div>
-                                <div class="filter-text"><i class="fa fa-rupee rupee-icon"></i>3000</div>
-                            </div>
-                            <div class="font-weight price-div">
-                                <p>You will save <i class="fa fa-rupee rupee-icon"></i>3000 on this order</p>
-                                <div class="flex-center">
-                                    <a class="action primary-action order-btn" href="#">PLACE ORDER</a>
-                                </div>
+                    </div>
+                </section>
+                <section class="details">
+                    <div class="price-details">
+                        <div class="filter-text price-text">PRICE DETAILS</div>
+                        <div class="font-weight flex-center justify-space-between price-div">
+                            <p>Price (2 items)</p>
+                            <p><i class="fa fa-rupee rupee-icon"></i>6000</p>
+                        </div>
+                        <div class="font-weight flex-center justify-space-between discount-div">
+                            <p>Discount</p>
+                            <p>- <i class="fa fa-rupee rupee-icon"></i>3000</p>
+                        </div>
+                        <div class="font-weight flex-center justify-space-between delivery-div">
+                            <p>Delivery Charges</p>
+                            <p><i class="fa fa-rupee rupee-icon"></i>0</p>
+                        </div>
+                        <div class="flex-center justify-space-between amount-div">
+                            <div class="filter-text">TOTAL AMOUNT</div>
+                            <div class="filter-text"><i class="fa fa-rupee rupee-icon"></i>3000</div>
+                        </div>
+                        <div class="font-weight price-div">
+                            <p>You will save <i class="fa fa-rupee rupee-icon"></i>3000 on this order</p>
+                            <div class="flex-center">
+                                <a class="action primary-action order-btn" href="#">PLACE ORDER</a>
                             </div>
                         </div>
-                    </section>
-                </div>
+                    </div>
+                </section>
+            </div>
 
         </main> <!-- Main Ends -->
 
