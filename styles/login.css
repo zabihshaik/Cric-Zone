@@ -12,7 +12,7 @@
     margin: 3rem;
     padding: 2.5rem;
     border: 3px solid var(--primary-color);
-    border-radius: 0.6rem;
+    border-radius: 9.6px;
 }
 
 .fs-1 {
@@ -29,6 +29,7 @@
 }
 
 .radio-actions {
+    display: flex;
     justify-content: space-between;
     margin: 1rem;
 }

@@ -29,7 +29,7 @@
         <header>
             <nav class="navbar">
                 <div>
-                    <a href="#" class="nav nav-logo">
+                    <a href="../index.html" class="nav nav-logo">
                         <h3>Cric Zone</h3>
                     </a>
                 </div>
@@ -43,11 +43,11 @@
                         <li><a href="./login.html" class="nav nav-pills">Login</a></li>
                         <li>
                             <div class="flex-center">
-                                <a href="./pages/login.html" class="nav nav-pills">
+                                <a href="./wishlist.html" class="nav nav-pills">
                                     <div class="icon"><i class="fa fa-heart"></i></div>
                                 </a>
                                 <span class="badge badge-icon">0</span>
-                                <a href="./pages/login.html" class="nav nav-pills">
+                                <a href="./cart.html" class="nav nav-pills">
                                     <div class="icon"><i class="fa fa-shopping-cart"></i></div>
                                 </a>
                                 <span class="badge badge-icon">0</span>
@@ -74,13 +74,33 @@
                     <h1>Signup</h1>
                     <form method="post">
                         <div class="input-container fs-1">
-                            <p class="label-text">Email Address</p>
+                            <p class="label-text">Email Address<span class="text-required">*</span></p>
                             <input class="input input-text" type="text" placeholder="criczone@hello.com">
                         </div>
                         <div class="input-container fs-1">
-                            <p class="label-text" for="input-text">Password</p>
+                            <p class="label-text">First Name<span class="text-required">*</span></p>
+                            <input class="input input-text" type="text" placeholder="First Name">
+                        </div>
+                        <div class="input-container fs-1">
+                            <p class="label-text">Last Name<span class="text-required">*</span></p>
+                            <input class="input input-text" type="text" placeholder="Last Name">
+                        </div>
+                        <div class="input-container fs-1">
+                            <p class="label-text" for="input-text">Password<span class="text-required">*</span></p>
                             <input class="input" id="input-text" type="password" placeholder="Enter your password here"
                                 value="password123">
+                        </div>
+                        <div class="input-container fs-1">
+                            <p class="label-text" for="input-text">Confirm Password<span class="text-required">*</span>
+                            </p>
+                            <input class="input" id="input-text" type="password" placeholder="Enter your password here"
+                                value="password123">
+                        </div>
+                        <div class="radio-actions flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="checkbox">
+                                Show / Hide Password
+                            </label>
                         </div>
                         <div class="radio-actions flex-center">
                             <label for="radio-unchecked">

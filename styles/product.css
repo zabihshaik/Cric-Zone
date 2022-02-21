@@ -1,13 +1,17 @@
 .product-sidebar {
     position: sticky;
     top: 0;
-    bottom: 0;
 }
 
 .products-container {
     margin: 2rem 2.5rem;
+    display: flex;
     flex-wrap: wrap;
     gap: 3rem;
+}
+
+.heart-icon {
+    color: var(--color-gray);
 }
 
 .heart-icon-main {

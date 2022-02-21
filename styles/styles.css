@@ -8,6 +8,7 @@
 @import url("../styles/filter.css");
 @import url("../styles/product.css");
 @import url("../styles/wishlist.css");
+@import url("../styles/cart.css");
 
 /* Reset CSS */
 *,
@@ -74,7 +75,7 @@ body {
     background-position: center;
     top: 0;
     z-index: -1;
-    filter: brightness(75%);
+    filter: brightness(70%);
     margin-top: 3.5rem;
 }
 
@@ -101,4 +102,12 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
+}
+
+.text-hero {
+    color: var(--primary-color);
+}
+
+.text-required {
+    color: var(--bg-danger);
 }
