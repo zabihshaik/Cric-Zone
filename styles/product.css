@@ -1,0 +1,32 @@
+.product-sidebar {
+    position: sticky;
+    top: 0;
+    bottom:0;
+}
+
+.advertisement {
+    margin-top: 1rem;
+}
+
+.products-container {
+    margin: 2rem 2.5rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.heart-icon-main {
+    color: var(--primary-color);
+}
+
+.heart-icon:hover,
+.heart-icon-main:hover {
+    color: var(--bg-body);
+}
+
+.card-container {
+    width: 18rem;
+}
+
+.btn-product {
+    width: 100%;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zabihulla Shaik" />
+    <meta name="keywords" content="Products Listing Page of Cric Zone " />
+    <meta name="description"
+        content="Cric Zone is an e-commerce website which have a wide range of Sports Accessories like T-shirts, Shoes, Cricket Bats and Balls." />
+
+    <link rel="stylesheet" href="https://neoz-ui.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="../styles/styles.css" />
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
+
+    <title>Products Listing | Cric Zone</title>
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <!-- Header Starts -->
+
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="../index.html" class="nav nav-logo">
+                        <h3>Cric Zone</h3>
+                    </a>
+                </div>
+                <div class="search-box-ecom">
+                    <input type="search" placeholder="search" />
+                    <i class="fa fa-search"></i>
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav nav-active nav-pills">Home</a></li>
+                        <li><a href="./login.html" class="nav nav-pills">Login</a></li>
+                        <li>
+                            <div class="flex-center">
+                                <div class="icon"><i class="fa fa-heart"></i></div>
+                                <span class="badge badge-icon">0</span>
+                                <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+                                <span class="badge badge-icon">0</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <!-- Header Ends -->
+
+        <!-- Main Starts -->
+
+        <main class="main">
+
+            <div class="product-sidebar">
+                <div class="items">
+                    <div class="filter flex-center">
+                        <p class="filter-text">Filters</p>
+                        <a href="#" class="clear-text">Clear</a>
+                    </div>
+                    <div class="slider-div">
+                        <p class="filter-text flex-center">Price</p>
+                        <div class="price-range flex-center">
+                            <span>2000</span>
+                            <span>5000</span>
+                            <span>10000</span>
+                        </div>
+                        <div class="slider">
+                            <div class="slider-container">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="filter-text">Category</div>
+                        <div class="inputs flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="checkbox" checked>
+                                T-shirts
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="checkbox">
+                                Accessories
+                            </label>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="filter-text">Rating</div>
+                        <div class="inputs flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio" checked>
+                                4 Stars and above
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                3 Stars and above
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                2 Stars and above
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                1 Stars and above
+                            </label>
+                        </div>
+                    </div>
+                    <div class="sort-div">
+                        <div class="filter-text">Sort by</div>
+                        <div class="inputs flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio-checked" type="radio" checked>
+                                Price - Low to High
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                Price - High to Low
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Cards  -->
+
+            <div class="container-components">
+                <div class="flex-center">
+                    <p class="filter-text">Showing all Products </p> <span> ( Showing products ) </span>
+                </div>
+                <div class="flex-center products-container">
+                    <section>
+                        <div class="card-container">
+                            <div class="image-div">
+                                <div class="overlay-image">
+                                    <img class="card-image" src="../assets/card-image2.jpg"
+                                        alt="Indian Cricket Retro T-shirt" />
+                                    <div class="card-dismiss"><i class="fa fa-heart heart-icon-main"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Team India Retro T-shirt
+                                </h2>
+                                <p class="card-author"><i class="fa fa-rupee"></i> 3,000</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-product">Go to Cart</button>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="card-container">
+                            <div class="image-div">
+                                <div class="overlay-image">
+                                    <img class="card-image" src="../assets/card-image1.jpg" alt="MRF Bats" />
+                                    <div class="card-dismiss"><i class="fa fa-heart heart-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">MRF Bat
+                                </h2>
+                                <p class="card-author"><i class="fa fa-rupee"></i> 2,000</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-product">Add to Cart</button>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="card-container">
+                            <div class="image-div">
+                                <div class="overlay-image">
+                                    <img class="card-image" src="../assets/india-new.jpg"
+                                        alt="New Indian Team T-Shirt" />
+                                    <div class="card-dismiss"><i class="fa fa-heart heart-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">New Indian Team T-Shirt
+                                </h2>
+                                <p class="card-author"><i class="fa fa-rupee"></i> 4,000</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-product">Add to Cart</button>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="card-container">
+                            <div class="image-div">
+                                <div class="overlay-image">
+                                    <img class="card-image" src="../assets/cric-acc1.jpg" alt="Full Cricket Kit" />
+                                    <div class="card-dismiss"><i class="fa fa-heart heart-icon-main"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Full Cricket Kit
+                                </h2>
+                                <p class="card-author"><i class="fa fa-rupee"></i> 10,000</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-product">Go to Cart</button>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="card-container">
+                            <div class="image-div">
+                                <div class="overlay-image">
+                                    <img class="card-image" src="../assets/cric-ballbat.png"
+                                        alt="Tennis Ball & Cricket Bat with stumps" />
+                                    <div class="card-dismiss"><i class="fa fa-heart heart-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Tennis Ball & Cricket Bat with stumps
+                                </h2>
+                                <p class="card-author"><i class="fa fa-rupee"></i> 4,000</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-product">Add to Cart</button>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="card-container">
+                            <div class="image-div">
+                                <div class="overlay-image">
+                                    <img class="card-image" src="../assets/dhoni-7.jpg" alt="Dhoni 7 T-Shirt" />
+                                    <div class="card-dismiss"><i class="fa fa-heart heart-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <h2 class="card-heading">Dhoni 7 T-Shirt
+                                </h2>
+                                <p class="card-author"><i class="fa fa-rupee"></i> 5,000</p>
+                            </div>
+                            <div class="card-actions">
+                                <button class="btn btn-primary btn-product">Add to Cart</button>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+        </main> <!-- Main Ends -->
+
+    </div>
+
+</body>
+
+</html>
