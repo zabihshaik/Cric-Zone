@@ -1,11 +1,7 @@
 .product-sidebar {
     position: sticky;
     top: 0;
-    bottom:0;
-}
-
-.advertisement {
-    margin-top: 1rem;
+    bottom: 0;
 }
 
 .products-container {
@@ -25,6 +21,15 @@
 
 .card-container {
     width: 18rem;
+}
+
+.card-heading {
+    font-weight: 600;
+}
+
+.card-author {
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .btn-product {
