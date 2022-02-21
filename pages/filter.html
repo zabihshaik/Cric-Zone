@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Zabihulla Shaik" />
+    <meta name="keywords" content="Filter by Page of Cric Zone " />
+    <meta name="description"
+        content="Cric Zone is an e-commerce website which have a wide range of Sports Accessories like T-shirts, Shoes, Cricket Bats and Balls." />
+
+    <link rel="stylesheet" href="https://neoz-ui.netlify.app/styles/main.css">
+    <link rel="stylesheet" href="../styles/styles.css" />
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/f3f37212fa.js" crossorigin="anonymous"></script>
+
+    <title>Filter by | Cric Zone</title>
+
+</head>
+
+<body>
+
+    <div class="page-wrap">
+
+        <!-- Header Starts -->
+
+        <header>
+            <nav class="navbar">
+                <div>
+                    <a href="#" class="nav nav-logo">
+                        <h3>Cric Zone</h3>
+                    </a>
+                </div>
+                <div class="search-box-ecom">
+                    <input type="search" placeholder="search" />
+                    <i class="fa fa-search"></i>
+                </div>
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="../index.html" class="nav nav-active nav-pills">Home</a></li>
+                        <li><a href="./login.html" class="nav nav-pills">Login</a></li>
+                        <li>
+                            <div class="flex-center">
+                                <div class="icon"><i class="fa fa-heart"></i></div>
+                                <span class="badge badge-icon">0</span>
+                                <div class="icon"><i class="fa fa-shopping-cart"></i></div>
+                                <span class="badge badge-icon">0</span>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="#" class="nav nav-pills"><i class="fa-solid fa-moon"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <!-- Header Ends -->
+
+        <!-- Main Starts -->
+
+        <main class="main">
+
+            <div class="filter-container">
+                <div class="items">
+                    <div class="filter flex-center">
+                        <p class="filter-text">Filters</p>
+                        <a href="#" class="clear-text">Clear</a>
+                    </div>
+                    <div class="slider-div">
+                        <p class="filter-text flex-center">Price</p>
+                        <div class="price-range flex-center">
+                            <span>100</span>
+                            <span>500</span>
+                            <span>1000</span>
+                        </div>
+                        <div class="slider">
+                            <div class="slider-container">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="filter-text">Category</div>
+                        <div class="inputs flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="checkbox" checked>
+                                T-shirts
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="checkbox">
+                                Accessories
+                            </label>
+                        </div>
+                    </div>
+                    <div class="rating">
+                        <div class="filter-text">Rating</div>
+                        <div class="inputs flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio" checked>
+                                4 Stars and above
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                3 Stars and above
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                2 Stars and above
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                1 Stars and above
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <div class="filter-text">Sort by</div>
+                        <div class="inputs flex-center">
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio-checked" type="radio" checked>
+                                Price - Low to High
+                            </label>
+                            <label for="radio-unchecked">
+                                <input class="radio-unchecked" name="radio" type="radio">
+                                Price - High to Low
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main> <!-- Main Ends -->
+
+    </div>
+
+</body>
+
+</html>
